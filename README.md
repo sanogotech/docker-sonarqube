@@ -6,6 +6,13 @@ The full readme is generated over in [docker-library/docs](https://github.com/do
 
 [![Build Status](https://travis-ci.org/SonarSource/docker-sonarqube.svg)](https://travis-ci.org/SonarSource/docker-sonarqube)
 
+# Run
+-- max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+```
+sysctl -w vm.max_map_count=262144
+```
+docker-compose up
+
 Have Question or Feedback?
 --------------------------
 
